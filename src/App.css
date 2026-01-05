@@ -1,10 +1,10 @@
 :root {
   --white: #FFFFFF;
-  --pink: #FFB6C1;
-  --pink-light: #FFD1DC;
-  --pink-dark: #FF69B4;
-  --gray: #FFF5F7;
-  --shadow: rgba(255, 105, 180, 0.2);
+  --green: #90EE90;
+  --green-light: #C1FFC1;
+  --green-dark: #32CD32;
+  --gray: #F5FFF5;
+  --shadow: rgba(50, 205, 50, 0.2);
 }
 
 * {
@@ -49,7 +49,7 @@ body {
 .logo {
   font-size: 1.5rem;
   font-weight: 900;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -70,7 +70,7 @@ body {
 .menu-toggle span {
   width: 25px;
   height: 3px;
-  background: var(--pink-dark);
+  background: var(--green-dark);
   transition: all 0.3s ease;
   border-radius: 2px;
 }
@@ -112,7 +112,7 @@ body {
 }
 
 .dropdown-menu button:hover {
-  background: var(--pink);
+  background: var(--green);
   color: var(--white);
   transform: translateX(5px);
 }
@@ -132,7 +132,7 @@ body {
   position: absolute;
   top: -8px;
   right: -8px;
-  background: var(--pink-dark);
+  background: var(--green-dark);
   color: var(--white);
   width: 22px;
   height: 22px;
@@ -156,7 +156,7 @@ body {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, var(--pink-light) 0%, var(--pink) 100%);
+  background: linear-gradient(135deg, var(--green-light) 0%, var(--green) 100%);
   border-radius: 30px;
   margin-bottom: 60px;
   animation: fadeInUp 0.6s ease;
@@ -180,7 +180,7 @@ body {
 .cta-btn {
   padding: 18px 50px;
   background: var(--white);
-  color: var(--pink-dark);
+  color: var(--green-dark);
   border: none;
   border-radius: 50px;
   font-size: 1.2rem;
@@ -202,7 +202,7 @@ body {
 
 .categories-section h2 {
   font-size: 2.5rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 30px;
   text-align: center;
 }
@@ -225,7 +225,7 @@ body {
 }
 
 .category-card:hover {
-  border-color: var(--pink);
+  border-color: var(--green);
   transform: translateY(-10px);
   box-shadow: 0 15px 40px var(--shadow);
 }
@@ -233,13 +233,13 @@ body {
 .category-name {
   font-size: 1.2rem;
   font-weight: bold;
-  color: var(--pink-dark);
+  color: var(--green-dark);
 }
 
 /* Restaurants */
 .restaurants-screen h2 {
   font-size: 2.5rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 30px;
   text-align: center;
 }
@@ -254,7 +254,7 @@ body {
   width: 100%;
   max-width: 500px;
   padding: 18px 25px;
-  border: 3px solid var(--pink);
+  border: 3px solid var(--green);
   border-radius: 50px;
   font-size: 1.1rem;
   transition: all 0.3s ease;
@@ -262,7 +262,7 @@ body {
 
 .search-input:focus {
   outline: none;
-  border-color: var(--pink-dark);
+  border-color: var(--green-dark);
   box-shadow: 0 0 0 4px var(--shadow);
 }
 
@@ -277,9 +277,9 @@ body {
 .pill-btn {
   padding: 12px 30px;
   background: var(--white);
-  border: 2px solid var(--pink);
+  border: 2px solid var(--green);
   border-radius: 50px;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -287,7 +287,7 @@ body {
 
 .pill-btn:hover,
 .pill-btn.active {
-  background: var(--pink);
+  background: var(--green);
   color: var(--white);
   transform: scale(1.05);
 }
@@ -329,7 +329,7 @@ body {
 
 .restaurant-info h3 {
   font-size: 1.4rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 10px;
 }
 
@@ -347,7 +347,7 @@ body {
 
 .back-btn {
   padding: 12px 30px;
-  background: var(--pink);
+  background: var(--green);
   color: var(--white);
   border: none;
   border-radius: 50px;
@@ -358,13 +358,13 @@ body {
 }
 
 .back-btn:hover {
-  background: var(--pink-dark);
+  background: var(--green-dark);
   transform: translateX(-5px);
 }
 
 .menu-screen h2 {
   font-size: 2.5rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 10px;
 }
 
@@ -397,7 +397,7 @@ body {
 
 .menu-item-info h3 {
   font-size: 1.3rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 8px;
 }
 
@@ -409,12 +409,12 @@ body {
 .menu-item-price {
   font-size: 1.4rem;
   font-weight: bold;
-  color: var(--pink-dark);
+  color: var(--green-dark);
 }
 
 .add-btn {
   padding: 12px 35px;
-  background: var(--pink);
+  background: var(--green);
   color: var(--white);
   border: none;
   border-radius: 50px;
@@ -424,7 +424,7 @@ body {
 }
 
 .add-btn:hover {
-  background: var(--pink-dark);
+  background: var(--green-dark);
   transform: scale(1.1);
 }
 
@@ -435,7 +435,7 @@ body {
 
 .cart-screen h2 {
   font-size: 2.5rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 30px;
   text-align: center;
 }
@@ -469,13 +469,13 @@ body {
 
 .cart-item-info h3 {
   font-size: 1.2rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 8px;
 }
 
 .cart-item-price {
   font-weight: bold;
-  color: var(--pink-dark);
+  color: var(--green-dark);
 }
 
 .quantity-controls {
@@ -488,7 +488,7 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: var(--pink);
+  background: var(--green);
   color: var(--white);
   border: none;
   font-size: 1.2rem;
@@ -498,14 +498,14 @@ body {
 }
 
 .quantity-controls button:hover {
-  background: var(--pink-dark);
+  background: var(--green-dark);
   transform: scale(1.1);
 }
 
 .remove-btn {
   background: none;
   border: none;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   font-size: 1.8rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -524,14 +524,14 @@ body {
 
 .cart-total h3 {
   font-size: 2rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 20px;
 }
 
 .checkout-btn {
   width: 100%;
   padding: 18px;
-  background: var(--pink-dark);
+  background: var(--green-dark);
   color: var(--white);
   border: none;
   border-radius: 50px;
@@ -557,7 +557,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: var(--pink);
+  background: var(--green);
   color: var(--white);
   font-size: 3rem;
   display: flex;
@@ -569,7 +569,7 @@ body {
 
 .tracking-screen h2 {
   font-size: 2.5rem;
-  color: var(--pink-dark);
+  color: var(--green-dark);
   margin-bottom: 15px;
 }
 
@@ -614,11 +614,11 @@ body {
 }
 
 .track-item.completed .track-dot {
-  background: var(--pink);
+  background: var(--green);
 }
 
 .track-item.active .track-dot {
-  background: var(--pink-dark);
+  background: var(--green-dark);
   box-shadow: 0 0 0 6px var(--shadow);
   animation: pulse 2s infinite;
 }
